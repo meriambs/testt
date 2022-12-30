@@ -1,0 +1,91 @@
+.container{
+   
+    margin: 128px 19% 941px 19%;
+ 
+}
+.container p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Colors/Main Colors/P1 */
+
+color: #176FFF;
+}
+
+.container h4{
+    margin-top: 12px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+/* identical to box height, or 91% */
+
+
+/* Colors/Main Colors/P3 */
+
+color: #333333;
+
+}
+
+.test{
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-around;}
+.cards{
+    margin: 10px;
+    padding-right: 50px;
+}
+button{
+    width:265px ;
+    height: 50px;
+   margin-top: 38px;
+ margin-left: 78%;
+
+
+background: #FAFAFA;
+
+border: 1px solid #EBECF0;
+border-radius: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+/* Colors/Gray/G3 */
+
+color: #B9BDC1;
+}
+.divbutton button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gomycode{
+    margin-top: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media  screen and (max-width: 800px) {
+    .App {
+        background-color: #828A92;
+        width: 100%;
+        
+    }
+    .divbutton{
+        margin-right: 70%;
+    }
+    .navbox{
+    }
+  }

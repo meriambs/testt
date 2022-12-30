@@ -1,0 +1,129 @@
+
+.navbox{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    width: 100%;
+box-sizing: border-box;
+border-bottom: 1px solid #EBECF0;
+}
+.block-question-te{
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+
+.block-question-te p{
+    color: #828A92;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+margin-top: 12px;
+margin-right: -56px;
+}
+.block-question{
+    height: 22px;
+    width: 125px;
+    margin-left: 54px;
+    margin-top: 24;
+    border-radius: 200px;
+    background: #F3F8FF;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px 7px;
+gap: 4px;
+}
+.block-question-te{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-question {
+    width: 94px;
+height: 18px;
+margin-top: 2px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Colors/Main Colors/P1 */
+
+color: #176FFF;
+}
+
+/* //partie click */
+
+.blok-Timer{
+    justify-content: space-between;
+    margin-top: 22px;
+    display: flex;
+    margin-left: 644px;
+    margin-right: 659px;
+    width: 137px;
+height: 44px;
+
+
+/* Colors/Secondary Colors/S2 */
+
+background: #F3F8FF;
+border-radius: 28px;
+}
+
+.blok-Timer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    margin-left: 13px;
+    margin-top: 12px;
+    margin-right: 26px;
+    text-align: center;
+    color: #176FFF;
+}
+
+.blok-Timer img{
+    width: 20px;
+    margin-left: 17px;
+    margin-bottom: 4px;
+}
+
+
+/* partie my score -_- */
+
+.block-myScore{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-right: 54px;
+}
+.block-myScore p{
+    width: 105px;
+    margin-top: -3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 446;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #176FFF;
+    margin-top: -30px;
+}
+.block-myScore svg{
+    margin-right: 4px;
+    margin-bottom: -10px;
+}
+
+
+
