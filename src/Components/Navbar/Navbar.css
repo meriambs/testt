@@ -189,22 +189,24 @@ padding: 2px 7px;
 
 
 /* scd part  */
-.block-myScore-scdpart{
-    
+.block-myScore-scdpart {
     background-color: 176FFF;
     margin-top: 1px;
-width: 52px;
-height: 23px;
-padding: 2px  10px 3px 10px;
-background: #176FFF;
-border-radius: 28px;font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-/* text-align: right; */
-
-}
+    width: 58px;
+    height: 23px;
+    padding: 2px 10px 3px 10px;
+    background: #176FFF;
+    border-radius: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1px;
+  }
 .block-myScore-scdpart  {
     color: #FFFFFF; ;
     padding: 5px;
@@ -212,13 +214,11 @@ line-height: 18px;
     
 } 
 .block-myScore-scdpart svg{
-    color: white;
+    padding:2px
 }
 .firstPart{
     display: flex;
     justify-content: space-between;
-    width: 643px;
-    margin-left: 19px;
 }
 /* //partie monguela */
 
@@ -246,24 +246,12 @@ color: #176FFF;
 margin-top: 23px;
 }
 }
-
+.sectiona-Mobile {
+    width: 100%
+}
 
 @media  screen and (min-width: 800px) {
-
-   
- 
-
 .sectiona-Mobile{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
 } 

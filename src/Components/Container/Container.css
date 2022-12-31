@@ -82,14 +82,16 @@ margin-top: 130px;
     }
     
     .container h4{
-        margin-top: 12px;
-        font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 200%;
-    color: #333333;
-    width: 97%;
+        
+            margin-top: 12px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 595;
+            font-size: 19px;
+            line-height: 200%;
+            color: #333333;
+            width: 97%;
+          
     
     }
     
