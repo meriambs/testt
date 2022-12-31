@@ -22,6 +22,7 @@ element:280,
   ]
   return (
     <div className='container'>
+
 <p>QUESTION 1.</p>
 
 <h4>What is the maximum number of characters per Tweet?</h4>
@@ -46,6 +47,7 @@ element:280,
 <img src="./SVG/oo.svg" alt="gomycode" />
 <img src="./SVG/d.svg" alt="gomycode" />
 <img src="./SVG/e.svg" alt="gomycode" />
+<img className='dotgomycode'  style={{marginTop:"14px"}}src="./SVG/dot.svg" alt="gomycode"/>
 </div>
 
     </div>
